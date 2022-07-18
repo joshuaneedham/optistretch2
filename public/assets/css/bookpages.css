@@ -1,0 +1,117 @@
+.book-page {
+    padding:0 0 5rem;
+    background:#f3efe7;
+    box-shadow: 1rem 1rem 5rem #CA5122;
+    margin:0 1rem 3rem;
+}
+#bookpage-header {
+    border-bottom:1px solid #38220E;
+    background-color: #CA5122;
+  	border-color: #38220E;
+  	padding:1rem;
+  	width:100%;
+  	position:absolute;
+  	top: 0;
+  	z-index:100000;
+  	border-top:2px solid #eb8942;
+}
+#bookpage-header.sticky {
+
+}
+.bookpage-content {
+	padding:10rem 5rem 5rem;
+}
+.book-page .section-break {
+    text-align:center;
+    margin-bottom:3rem;
+}
+
+.book-page {
+	position: relative;
+}
+.book-page .affix {
+	position: fixed;
+	width:2em;
+}
+.book-page .affix.next {
+	right:1rem;
+}
+.book-page .affix.previous {
+	left:1rem;
+}
+
+/* Text indent will make a paragraph indent, like putting a tab at the beginning of each new paragraph
+The margin settings get rid of the white space between paragraphs, again so it looks more like a book
+The text-align line justifies the margins. If you don't want them justified, change it to left, or remove that line
+You don't have to specify a font, but you can */
+
+.book-page p {text-indent: .3in;
+    font-family:"Times New Roman";}
+
+/* Here we make our headings centered
+We've also made the headings the same font as the body text */
+
+.book-page h1 {
+    font-family:"Times New Roman"; }
+.book-page h2 {
+    font-family:"Times New Roman"; }
+.book-page h3 {
+    font-family:"Times New Roman"; }
+.book-page #titlepage {
+	text-align:center;
+}
+.book-page #titlepage h1,
+.book-page #titlepage h2,
+.book-page #titlepage h3 {
+	margin:0;
+}
+.book-page #titlepage h1 {
+	font-size:114px;
+	margin-top:114px;
+}
+.book-page #titlepage h2 {
+	font-size:33px;
+}
+.book-page #titlepage h3 {
+	font-size:64px;
+	margin-bottom:64px;
+}
+.book-page #titlepage h4 {
+	font-size:58px;
+	margin-bottom:114px;
+}
+.book-page #titlepage p,
+.book-page table p,
+.book-page .bibliography p {
+	text-indent: 0;
+}
+.book-page .section-index {
+	font-size:9pt;
+}
+.book-page .center {
+	text-align: center;
+}
+.book-page .hrwrap {
+	text-align:center;
+	font-size:33px;
+}
+.book-page .section-break {
+	text-align:center;
+	margin:4% 2% 10% 2%;
+	page-break-before: always;
+}
+.book-page img {
+	max-width:100%;
+	height:auto;
+	margin-bottom:4rem;
+}
+.book-page .figure-example {
+	border:1px solid black;
+	padding:5%;
+	margin:5% auto;
+	max-width:90%;
+	page-break-after: always;
+}
+.book-page .figure-example p {
+	text-indent: 0;
+}
